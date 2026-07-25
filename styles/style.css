@@ -58,23 +58,23 @@
 .decorated-zone::before {
   content: "";
   position: absolute;
+  top: 0px;
+  right: 0px;
   width: 25px;
   height: 25px;
   border-top: 1px solid var(--accent-color, #ff0070);
   border-right: 1px solid var(--accent-color, #ff0070);
-  top: 0px;
-  right: 0px;
 }
 
 .decorated-zone::after {
   content: "";
   position: absolute;
+  bottom: 20px;
+  left: 0px;
   width: 25px;
   height: 25px;
   border-bottom: 1px solid var(--accent-color, #ff0070);
   border-left: 1px solid var(--accent-color, #ff0070);
-  bottom: 20px;
-  left: 0px;
 }
 
 .header__theme-menu {
@@ -131,9 +131,9 @@
 }
 
 .title-decor {
-  font-size: inherit;
   color: var(--heading-color, #000028);
   font-weight: 700;
+  font-size: inherit;
   line-height: 23.4px;
   background-color: var(--accent-color, #ff0070);
 }
@@ -152,9 +152,9 @@
 }
 
 .section {
-  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
+  margin-top: 50px;
 }
 
 .section-title {
@@ -197,8 +197,8 @@
 }
 
 .title-decor-regular {
-  font-weight: inherit;
   margin: 10px 0;
+  font-weight: inherit;
   line-height: 23.4px;
 }
 
@@ -222,12 +222,12 @@
 }
 
 .footer {
-  padding-bottom: 0px;
   display: grid;
   justify-content: center;
   align-items: center;
   height: 100vh;
   min-height: 668px;
+  padding-bottom: 0px;
 }
 
 .footer-title {
