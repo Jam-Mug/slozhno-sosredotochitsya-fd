@@ -7,5 +7,9 @@
   --text-color: #f1b2ce;
   --heading-color: #000028;
   --section-title-color: #ff0070;
-  --hover-border-color: #ff007066;
+  --hover-menu-button-border-color: #ff007066;
+  --decorated-zone-color: #ff0070;
+  --menu-button-color: #ff0070;
+  --menu-button-active-color: #ff0070;
+  --focus-border-color: #ff0070;
 }
