@@ -139,7 +139,6 @@
   justify-self: end;
   align-self: center;
   min-width: 355px;
-  max-width: 491px;
 }
 
 .section {
@@ -166,6 +165,7 @@
 
 .card__main-text {
   grid-column: 1;
+  margin-top: 10px;
   color: var(--text-color, #f1b2ce);
   line-height: 23.4px;
 }
@@ -199,7 +199,7 @@
 }
 
 .card__title-decor {
-  margin: 20px 0 10px;
+  margin-top: 20px;
 }
 
 .gallery {
@@ -314,6 +314,7 @@
 
   .card__main-text {
     grid-column: 1;
+    margin-top: 10px;
   }
 
   .title-decor-regular {
@@ -321,7 +322,7 @@
   }
 
   .card__title-decor {
-    margin: 0 0 10px;
+    margin: 0;
   }
 
   .gallery {
@@ -392,24 +393,8 @@
     margin: 0;
   }
 
-  .section {
-    gap: 20px;
-    margin-top: 80px;
-    padding: 0 20px;
-  }
-
   .section-why {
     grid-template-columns: 315px 1fr;
-    grid-template-rows: repeat(2, min-content);
-    margin-top: 60px;
-  }
-
-  .section-why .section-title {
-    grid-column: 1;
-  }
-
-  .section-why .card {
-    grid-column: 2;
   }
 
   .section-causes {
@@ -419,7 +404,6 @@
   }
 
   .section-causes .section-title {
-    grid-column: 1;
     grid-row: 1;
   }
 
@@ -430,36 +414,6 @@
 
   .section-advices {
     grid-template-columns: 315px 1fr;
-    grid-template-rows: min-content 1fr;
-  }
-
-  .section-advices .section-title {
-    grid-column: 1;
-    grid-row: 1 / -1;
-  }
-
-  .section-advices .card {
-    grid-column: 2;
-  }
-
-  .card {
-    grid-column: 1;
-  }
-
-  .card__main-text {
-    grid-column: 1;
-  }
-
-  .title-decor-regular {
-    margin: 0 0 10px;
-  }
-
-  .card__title-decor {
-    margin: 0 0 10px;
-  }
-
-  .gallery__title {
-    margin: 0;
   }
 
   .footer {
