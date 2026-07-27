@@ -194,6 +194,10 @@
   line-height: 23.4px;
 }
 
+.section-advices .card__title-decor {
+  margin-bottom: 0;
+}
+
 .card__title-decor {
   margin-top: 20px;
 }
