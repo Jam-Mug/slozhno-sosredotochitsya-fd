@@ -189,13 +189,9 @@
 }
 
 .title-decor-regular {
-  margin: 20px 0 10px;
+  margin-top: 20px;
   font-weight: inherit;
   line-height: 23.4px;
-}
-
-.section-advices .card__title-decor {
-  margin-bottom: 0;
 }
 
 .card__title-decor {
@@ -317,12 +313,13 @@
     margin-top: 10px;
   }
 
-  .title-decor-regular {
-    margin: 0 0 10px;
-  }
 
   .card__title-decor {
     margin: 0;
+  }
+
+  .title-decor-regular {
+    margin: 0 0 10px;
   }
 
   .gallery {
