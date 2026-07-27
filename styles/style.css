@@ -189,7 +189,7 @@
 }
 
 .title-decor-regular {
-  margin-top: 20px;
+  margin: 20px 0 10px;
   font-weight: inherit;
   line-height: 23.4px;
 }
@@ -232,7 +232,7 @@
   align-self: center;
 }
 
-@media (width >= 768px) {
+@media (width >=768px) {
   .header {
     min-height: 1024px;
     padding: 20px 20px 20px 0;
@@ -317,13 +317,12 @@
     margin-top: 10px;
   }
 
+  .title-decor-regular {
+    margin: 0 0 10px;
+  }
 
   .card__title-decor {
     margin: 0;
-  }
-
-  .title-decor-regular {
-    margin: 0 0 10px;
   }
 
   .gallery {
@@ -374,7 +373,7 @@
   }
 }
 
-@media (width >= 1024px) {
+@media (width >=1024px) {
   .header {
     min-height: 768px;
   }
