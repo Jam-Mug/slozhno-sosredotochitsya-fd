@@ -269,7 +269,6 @@
 
   .section-why {
     grid-template-columns: 236px 1fr;
-    grid-template-rows: repeat(2, min-content);
     margin-top: 60px;
   }
 
@@ -278,8 +277,13 @@
     grid-row: 1 / -1;
   }
 
+  .section-why__container {
+    display: grid;
+    gap: 20px;
+  }
+
   .section-why .card {
-    grid-column: 2;
+    grid-column: 1;
   }
 
   .section-causes {
@@ -290,8 +294,16 @@
     grid-column: 1;
   }
 
-  .section-causes .card {
+  .section-causes__conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
     grid-column: 1 / 4;
+    grid-row: 2;
+    gap: 20px;
+  }
+
+  .section-causes .card {
+    grid-column: 1;
   }
 
   .section-advices {
@@ -397,8 +409,11 @@
     grid-template-columns: 315px 1fr;
   }
 
+  .section-causes__conteiner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .section-causes {
-    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content 1fr;
   }
@@ -409,7 +424,6 @@
 
   .section-causes .card {
     grid-column: auto;
-    grid-row: 2;
   }
 
   .section-advices {
